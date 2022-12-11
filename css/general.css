@@ -35,6 +35,8 @@
             #45260a
  - Accents:
  - Greys:  
+            #888
+            #767676 (lightest grey allowed on #fff)
             #555 
             #333 
             #6f6f6f (lightest grey allowed on #fdf2e9) 
@@ -85,7 +87,7 @@ img, picture, svg, video {
 	max-width: 100%;
 }
 
-input, textarea, button, select {
+input, textarea, button, select, address {
 	font: inherit;
 }
 
@@ -120,6 +122,10 @@ input, textarea, button, select {
 
 .grid--4-cols {
    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+   grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center-v {
@@ -257,7 +263,7 @@ input, textarea, button, select {
    outline: none;
    /* outline: 4px dotted #e67e22; */
    /* outline-offset: 8px; */
-   box-shadow: 0 0 0 0.3rem rgba(230, 125, 34, 0.5);
+   box-shadow: 0 0 0 0.2rem rgba(230, 125, 34, 0.5);
 }
 
 /* HELPER/SETTINGS CLASSES */
